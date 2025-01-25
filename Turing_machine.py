@@ -21,7 +21,7 @@ def turing_machine(tape):
 
     return transition_table
 
-def count_substring(tape, pattern):
+def count_occurrence(tape, pattern):
     count = 0
     state = -1
     transition_table = turing_machine(pattern)
@@ -45,6 +45,6 @@ if __name__ == '__main__':
     tape = open("tape.txt").read().strip()
     pattern = open("pattern.txt").read().strip()
   
-    count = count_substring(tape, pattern)
+    count = count_occurrence(tape, pattern)
     
     print(count," occurrences of the pattern in the tape.")
