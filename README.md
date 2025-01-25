@@ -1,5 +1,5 @@
 # Turing_Machine
-This is a turing machine that finds number of occurrences of a pattern in a tape.
+For now it finds occurence amount of a pattern in a tape. Alltho the API is optimal to implement custom functions
 
 # How it works
 - Enter the pattern and the tape to pattern.txt and tape.txt
